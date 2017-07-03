@@ -1,9 +1,9 @@
 {
   "name": "underpants-cli",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Underpants CLI",
   "main": "dist/index.js",
-  "repository": "https://github.com/arzafra/underpants-cli",
+  "repository": "https://github.com/arzafran/underpants-cli",
   "bin": {
     "underpants": "dist/index.js"
   },
