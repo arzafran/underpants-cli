@@ -10,7 +10,8 @@
   "scripts": {
     "build": "rimraf dist && babel src --copy-files --out-dir dist --ignore *.test.js",
     "eslint": "eslint src",
-    "start": "npm run eslint && npm run build"
+    "start": "npm run eslint && npm run build",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "underpants",
