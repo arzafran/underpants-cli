@@ -1,4 +1,4 @@
-# underpants-cli
+# underpants-cli [![Build Status][travis-image]][travis-url] [![Dependency Status][depstat-image]][depstat-url]
 
 A simple CLI for [underpants](https://github.com/arzafran/underpants).
 
@@ -34,3 +34,8 @@ MIT © [Franco Arza](https://arzafran.co)
 ## Special mention
 
 I wanted to mention that this development was contributed by [Matias](https://github.com/matiasbeckerle), thanks pal, this tool is great!
+
+[travis-url]: https://travis-ci.org/arzafran/underpants-cli
+[travis-image]: https://travis-ci.org/arzafran/underpants-cli.svg?branch=master
+[depstat-url]: https://david-dm.org/arzafran/underpants-cli/?type=dev
+[depstat-image]: https://david-dm.org/arzafran/underpants-cli/dev-status.svg
