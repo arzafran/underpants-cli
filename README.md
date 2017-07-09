@@ -26,6 +26,8 @@ To validate ([ESLint](http://eslint.org/)) & build ([Babel](https://babeljs.io/)
 npm start
 ```
 
+Inside the root directory run the CLI commands as you were installed it globally. Just remember to build the library first using `npm start` or `npm run build`.
+
 ## License
 MIT © [Franco Arza](https://arzafran.co)
 
