@@ -10,8 +10,9 @@
   "scripts": {
     "build": "rimraf dist && babel src --copy-files --out-dir dist --ignore *.test.js",
     "eslint": "eslint src",
-    "start": "npm run eslint && npm run build",
-    "prepublish": "npm run build"
+    "test": "ava",
+    "start": "npm run build && npm run eslint && npm test",
+    "prepublish": "npm run build && npm run eslint && npm test"
   },
   "keywords": [
     "underpants",
@@ -30,9 +31,12 @@
     "yargs": "^8.0.2"
   },
   "devDependencies": {
+    "ava": "^0.20.0",
     "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.2.0",
+    "execa": "^0.7.0",
     "rimraf": "^2.6.1"
   }
 }
