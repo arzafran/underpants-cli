@@ -12,7 +12,7 @@
     "eslint": "eslint src",
     "test": "ava",
     "start": "npm run build && npm run eslint && npm test",
-    "prepublish": "npm run build && npm run eslint && npm test"
+    "prepublish": "npm run build && npm run eslint"
   },
   "keywords": [
     "underpants",
