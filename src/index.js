@@ -17,9 +17,9 @@ yargs
   .argv;
 
 function initNewProject(name) {
-  console.log(`Initializing new project ${name}...`);
+  console.log(`Initializing ${name} project...`);
   downloadRepo(UNDERPANTS_REPOSITORY, { target: name })
     .then(() => {
-      console.log('Done! Now put your clothes.');
+      console.log('Done! Now put your clothes on.');
     });
 }
